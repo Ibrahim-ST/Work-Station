@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+    @apply rounded-lg px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:mx-24 lg:px-8
+}
+
+.active {
+    @apply font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-400
+}
+
+.default {
+    @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400
+}
+.text-primary{
+    @apply text-[#808EFE]
+}
+
+.greenBg{
+    @apply bg-[#16A34A]
+}
+.bgBlog{
+    @apply bg-[#f5f0f6]
+}
+ 
